@@ -1,0 +1,120 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: darkslategrey;
+    color: aliceblue;
+    width: 100%;
+    padding: 2% 0 2% 0;
+    position: relative;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1607349913338-fca6f7fc42d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-clip: content-box;
+    background-repeat: repeat;
+    height: 150vh;
+    
+}
+
+input {
+    width: 100%;
+    background-color: rgba(47, 79, 79, 0.455);
+    border: 2px black ridge;
+}
+
+#formIngreso > * {
+    padding: 5% 5% 5% 5%;
+    background-color: rgba(240, 248, 255, 0.622);
+    border-radius: 15px;
+    border: 2px darkslategrey ridge;
+}
+
+.botonera-add {
+    width: 100%;
+    margin: 4% 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+#btnCambio {
+    display: none;
+    color: whitesmoke;
+}
+
+#btnAgregaProd {
+    justify-self: center;
+}
+
+.cajaInputs{
+    display: flex;
+}
+
+.inputs-top{
+    display: flex;
+    width: 50%;
+    margin: 0 1% 0 1%;
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+#formIngreso {
+    margin: 2% 0% 1% 0%;
+}
+
+#listado-productos {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 5% 5% 5%;
+    background-image: url('https://images.unsplash.com/photo-1603484477859-abe6a73f9366?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+    border-radius: 25px;
+    border: 2px darkslategrey ridge;
+    display: none;
+}
+
+#listado-productos article {
+    width: 100%;
+    margin: 1% 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cajaNombre {
+    width: 60%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.cajaCantidad{
+    background-color: aliceblue;
+    margin: 0 1% 0 0;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+p{
+    margin: 0% 1rem 0% 1rem;  
+}
+
+.botonera-lista > button {
+    background-color: whitesmoke;
+    color: darkslategrey;
+    border: 1px solid darkslategrey;
+    border-radius: 7px;
+}
+
